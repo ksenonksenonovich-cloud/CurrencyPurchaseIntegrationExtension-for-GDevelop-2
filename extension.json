@@ -1,0 +1,23 @@
+{
+  "name": "InGameCurrencyPurchases",
+  "description": "Расширение для покупки виртуальной валюты внутри игры",
+  "version": "1.0",
+  "author": "Ваше Имя",
+  "functions": {
+    "StartPurchase": {
+      "description": "Запускает покупку выбранного пакета валюты",
+      "parameters": {
+        "packageId": "Идентификатор пакета"
+      }
+    },
+    "OnPurchaseSuccess": {
+      "description": "Обработка успешной покупки, увеличение баланса валюты",
+      "parameters": {
+        "amount": "Количество валюты, добавляемое к балансу"
+      }
+    },
+    "GetCurrencyBalance": {
+      "description": "Получить текущий баланс валюты"
+    }
+  }
+}
