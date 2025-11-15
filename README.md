@@ -1,0 +1,1 @@
+# CurrencyPurchaseIntegrationExtension-for-GDevelop-2
